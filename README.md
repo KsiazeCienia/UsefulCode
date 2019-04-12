@@ -10,3 +10,6 @@ UICollectionViewCell:
 
 UIView:
 * Method to add subview with edges constraints (possible offset)
+
+UIColor:
+* Link with name convetion

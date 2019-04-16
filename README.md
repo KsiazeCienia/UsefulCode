@@ -1,5 +1,5 @@
 # UsefulCode
-Classes and extensions that are commonly used in projects.
+Classes and extensions that are commonly used in projects. Feel free to copy and make suggestions 😃
 
 UICollectionView:
 * Easier cell, header register

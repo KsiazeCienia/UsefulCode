@@ -10,6 +10,11 @@ import UIKit
 
 extension UIView {
 
+    // String description of class
+    static var identifier: String {
+        return String(describing: self)
+    }
+
     // Add subview with edges constraints.
     // Possible to add offset
     func addSubviewWithEdgesConstraints(_ subview: UIView, offset: CGFloat = 0) {

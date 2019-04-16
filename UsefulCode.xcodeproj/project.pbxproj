@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C15AF0842261186800BBDDA7 /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AF0832261186800BBDDA7 /* UICollectionViewExtensions.swift */; };
-		C15AF0862261189500BBDDA7 /* UICollectionViewCellExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AF0852261189500BBDDA7 /* UICollectionViewCellExtensions.swift */; };
 		C15AF089226119F400BBDDA7 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AF088226119F400BBDDA7 /* UIViewExtensions.swift */; };
 		C15AF08C22611B3100BBDDA7 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AF08B22611B3100BBDDA7 /* UIColorExtensions.swift */; };
 /* End PBXBuildFile section */
@@ -28,7 +27,6 @@
 /* Begin PBXFileReference section */
 		C15AF0782261184900BBDDA7 /* libUsefulCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUsefulCode.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15AF0832261186800BBDDA7 /* UICollectionViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtensions.swift; sourceTree = "<group>"; };
-		C15AF0852261189500BBDDA7 /* UICollectionViewCellExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCellExtensions.swift; sourceTree = "<group>"; };
 		C15AF088226119F400BBDDA7 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		C15AF08B22611B3100BBDDA7 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,7 +71,6 @@
 			children = (
 				C15AF08B22611B3100BBDDA7 /* UIColorExtensions.swift */,
 				C15AF0832261186800BBDDA7 /* UICollectionViewExtensions.swift */,
-				C15AF0852261189500BBDDA7 /* UICollectionViewCellExtensions.swift */,
 				C15AF088226119F400BBDDA7 /* UIViewExtensions.swift */,
 			);
 			path = UIExtensions;
@@ -136,7 +133,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C15AF0862261189500BBDDA7 /* UICollectionViewCellExtensions.swift in Sources */,
 				C15AF089226119F400BBDDA7 /* UIViewExtensions.swift in Sources */,
 				C15AF0842261186800BBDDA7 /* UICollectionViewExtensions.swift in Sources */,
 				C15AF08C22611B3100BBDDA7 /* UIColorExtensions.swift in Sources */,

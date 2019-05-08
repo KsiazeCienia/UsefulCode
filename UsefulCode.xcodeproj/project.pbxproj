@@ -10,6 +10,7 @@
 		C15AF0842261186800BBDDA7 /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AF0832261186800BBDDA7 /* UICollectionViewExtensions.swift */; };
 		C15AF089226119F400BBDDA7 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AF088226119F400BBDDA7 /* UIViewExtensions.swift */; };
 		C15AF08C22611B3100BBDDA7 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AF08B22611B3100BBDDA7 /* UIColorExtensions.swift */; };
+		C1FD9CCC22833A8F000B34FD /* AdjustableCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FD9CCB22833A8F000B34FD /* AdjustableCollectionViewFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		C15AF0832261186800BBDDA7 /* UICollectionViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtensions.swift; sourceTree = "<group>"; };
 		C15AF088226119F400BBDDA7 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		C15AF08B22611B3100BBDDA7 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		C1FD9CCB22833A8F000B34FD /* AdjustableCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustableCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		C15AF07A2261184900BBDDA7 /* UsefulCode */ = {
 			isa = PBXGroup;
 			children = (
+				C1FD9CCA22833A73000B34FD /* UIComponents */,
 				C15AF0822261185800BBDDA7 /* UIExtensions */,
 			);
 			path = UsefulCode;
@@ -74,6 +77,14 @@
 				C15AF088226119F400BBDDA7 /* UIViewExtensions.swift */,
 			);
 			path = UIExtensions;
+			sourceTree = "<group>";
+		};
+		C1FD9CCA22833A73000B34FD /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				C1FD9CCB22833A8F000B34FD /* AdjustableCollectionViewFlowLayout.swift */,
+			);
+			path = UIComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 				C15AF089226119F400BBDDA7 /* UIViewExtensions.swift in Sources */,
 				C15AF0842261186800BBDDA7 /* UICollectionViewExtensions.swift in Sources */,
 				C15AF08C22611B3100BBDDA7 /* UIColorExtensions.swift in Sources */,
+				C1FD9CCC22833A8F000B34FD /* AdjustableCollectionViewFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,6 +15,11 @@ extension UICollectionView {
         register(type, forCellWithReuseIdentifier: type.identifier)
     }
 
+    /// Easier cells register
+    func register(_ types: [UICollectionViewCell.Type]) {
+        types.forEach(register)
+    }
+
     /// Unsafe cell dequeue with cast to given class
     func unsafeDequeueReusableCell<T: UICollectionViewCell>(_ cellType: T.Type, for indexPath: IndexPath) -> T {
         guard let cell = dequeueReusableCell(withReuseIdentifier: cellType.identifier,

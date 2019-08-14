@@ -15,6 +15,11 @@ extension UITableView {
         register(type, forCellReuseIdentifier: type.identifier)
     }
 
+    /// Easier cells register
+    func register(_ types: [UITableViewCell.Type]) {
+        types.forEach(register)
+    }
+
     /// Unsafe cell dequeue with cast to given class
     func unsafeDequeueReusableCell<T: UITableViewCell>(_ cellType: T.Type, for indexPath: IndexPath) -> T {
         guard let cell = dequeueReusableCell(withIdentifier: cellType.identifier,

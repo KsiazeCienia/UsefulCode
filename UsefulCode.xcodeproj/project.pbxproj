@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C15AF0842261186800BBDDA7 /* UICollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AF0832261186800BBDDA7 /* UICollectionViewExtensions.swift */; };
-		C15AF089226119F400BBDDA7 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AF088226119F400BBDDA7 /* UIViewExtensions.swift */; };
-		C15AF08C22611B3100BBDDA7 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AF08B22611B3100BBDDA7 /* UIColorExtensions.swift */; };
-		C1FD9CCC22833A8F000B34FD /* AdjustableCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FD9CCB22833A8F000B34FD /* AdjustableCollectionViewFlowLayout.swift */; };
+		C108DC4B23042FD90037C61E /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C108DC4A23042FD90037C61E /* UITableView+Extensions.swift */; };
+		C15AF0842261186800BBDDA7 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AF0832261186800BBDDA7 /* UICollectionView+Extensions.swift */; };
+		C15AF089226119F400BBDDA7 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AF088226119F400BBDDA7 /* UIView+Extensions.swift */; };
+		C15AF08C22611B3100BBDDA7 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AF08B22611B3100BBDDA7 /* UIColor+Extensions.swift */; };
+		C1FD9CCC22833A8F000B34FD /* AdjustableCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FD9CCB22833A8F000B34FD /* AdjustableCollectionViewLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +27,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C108DC4A23042FD90037C61E /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
 		C15AF0782261184900BBDDA7 /* libUsefulCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUsefulCode.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		C15AF0832261186800BBDDA7 /* UICollectionViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtensions.swift; sourceTree = "<group>"; };
-		C15AF088226119F400BBDDA7 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
-		C15AF08B22611B3100BBDDA7 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
-		C1FD9CCB22833A8F000B34FD /* AdjustableCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustableCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		C15AF0832261186800BBDDA7 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		C15AF088226119F400BBDDA7 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		C15AF08B22611B3100BBDDA7 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		C1FD9CCB22833A8F000B34FD /* AdjustableCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustableCollectionViewLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +74,10 @@
 		C15AF0822261185800BBDDA7 /* UIExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				C15AF08B22611B3100BBDDA7 /* UIColorExtensions.swift */,
-				C15AF0832261186800BBDDA7 /* UICollectionViewExtensions.swift */,
-				C15AF088226119F400BBDDA7 /* UIViewExtensions.swift */,
+				C15AF08B22611B3100BBDDA7 /* UIColor+Extensions.swift */,
+				C15AF0832261186800BBDDA7 /* UICollectionView+Extensions.swift */,
+				C15AF088226119F400BBDDA7 /* UIView+Extensions.swift */,
+				C108DC4A23042FD90037C61E /* UITableView+Extensions.swift */,
 			);
 			path = UIExtensions;
 			sourceTree = "<group>";
@@ -82,7 +85,7 @@
 		C1FD9CCA22833A73000B34FD /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
-				C1FD9CCB22833A8F000B34FD /* AdjustableCollectionViewFlowLayout.swift */,
+				C1FD9CCB22833A8F000B34FD /* AdjustableCollectionViewLayout.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -144,10 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C15AF089226119F400BBDDA7 /* UIViewExtensions.swift in Sources */,
-				C15AF0842261186800BBDDA7 /* UICollectionViewExtensions.swift in Sources */,
-				C15AF08C22611B3100BBDDA7 /* UIColorExtensions.swift in Sources */,
-				C1FD9CCC22833A8F000B34FD /* AdjustableCollectionViewFlowLayout.swift in Sources */,
+				C108DC4B23042FD90037C61E /* UITableView+Extensions.swift in Sources */,
+				C15AF089226119F400BBDDA7 /* UIView+Extensions.swift in Sources */,
+				C15AF0842261186800BBDDA7 /* UICollectionView+Extensions.swift in Sources */,
+				C15AF08C22611B3100BBDDA7 /* UIColor+Extensions.swift in Sources */,
+				C1FD9CCC22833A8F000B34FD /* AdjustableCollectionViewLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

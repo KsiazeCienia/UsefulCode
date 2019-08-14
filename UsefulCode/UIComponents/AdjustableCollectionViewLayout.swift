@@ -8,8 +8,8 @@
 
 import UIKit
 
-/// CollectionViewFlowLayout that fit cells to UICollectionView size based on number of cells per row/column and given ratio
-public final class AdjustableCollectionViewFlowLayout: UICollectionViewFlowLayout {
+/// CollectionViewLayout that fit cells to UICollectionView size based on number of cells per row/column and given ratio
+public final class AdjustableCollectionViewLayout: UICollectionViewFlowLayout {
 
     // MARK: - Structures
 

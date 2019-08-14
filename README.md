@@ -3,7 +3,7 @@ Classes and extensions that are commonly used in projects. Feel free to copy and
 
 ## UI Components
 
-**AdjustableCollectionViewLayout** - Fits cells to `UICollectionView` size based on number of cells in row/column and given ratio
+**`AdjustableCollectionViewLayout`** - Fits cells to `UICollectionView` size based on number of cells in row/column and given ratio
 
 ## UI Extensions
 
@@ -16,7 +16,7 @@ Classes and extensions that are commonly used in projects. Feel free to copy and
 * Unsafe cell dequeue with casting to specific class
 
 **UIView:**
-* Identifier - property, String class description
+* `identifier` - property, String class description
 * Method to add subview with edges constraints (possible offset)
 * Method to add subview with edges constraint to `safeAreaLayoutGuide` (possible offset)
 

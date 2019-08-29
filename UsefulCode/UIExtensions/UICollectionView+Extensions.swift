@@ -29,7 +29,7 @@ extension UICollectionView {
         return cell
     }
 
-    /// Easier resuable view register
+    /// Easier reusable view register
     func registerHeader(_ type: UICollectionReusableView.Type) {
         register(type, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: type.identifier)
     }

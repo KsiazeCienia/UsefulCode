@@ -3,22 +3,27 @@ Classes and extensions that are commonly used in projects. Feel free to copy and
 
 ## UI Components
 
-**`AdjustableCollectionViewLayout`** - Fits cells to `UICollectionView` size based on number of cells in row/column and given ratio
+**`AdjustableCollectionViewLayout`** - fits cells to `UICollectionView` size based on number of cells in row/column and given ratio
 
 ## UI Extensions
 
+**UIView:**
+* `static var identifier: String` - property, String class description
+* `func addSubviews(_ subviews: [UIView])` - add array of views to the view
+* `func addSubviewWithEdgesConstraints(_ subview: UIView, offset: CGFloat = 0)` - Method to add subview with edges constraints (possible offset)
+* `func addSubviewWithSafeAreaEdgesConstraints(_ subview: UIView, offset: CGFloat = 0)` - Method to add subview with edges constraint to `safeAreaLayoutGuide` (possible offset)
+
 **UICollectionView:**
-* Easier cell, header register
-* Unsafe cell, header dequeue with casting to specific class
+* `func register(_ type: UICollectionViewCell.Type)` - easier cell register
+* `func register(_ types: [UICollectionViewCell.Type])` - easier cells register
+* `func unsafeDequeueReusableCell<T: UICollectionViewCell>(_ cellType: T.Type, for indexPath: IndexPath) -> T` - unsafe cell dequeue with cast to given class
+* `func registerHeader(_ type: UICollectionReusableView.Type)` - easier reusable view register
+* `func unsafeDequeueReusableHeaderView<T: UICollectionReusableView>(_ viewType: T.Type, for indexPath: IndexPath) -> T` - unsafe reusable view dequeue with cast to given class
 
 **UITableView:**
-* Easier cell register
-* Unsafe cell dequeue with casting to specific class
-
-**UIView:**
-* `identifier` - property, String class description
-* Method to add subview with edges constraints (possible offset)
-* Method to add subview with edges constraint to `safeAreaLayoutGuide` (possible offset)
+* `func register(_ type: UITableViewCell.Type)` - easier cell register
+* `func register(_ types: [UITableViewCell.Type])` - easier cells register
+* `func unsafeDequeueReusableCell<T: UITableViewCell>(_ cellType: T.Type, for indexPath: IndexPath) -> T` - unsafe cell dequeue with casting to specific class
 
 **UIColor:**
 * Link with name convetion

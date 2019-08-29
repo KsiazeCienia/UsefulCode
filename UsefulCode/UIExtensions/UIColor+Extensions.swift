@@ -9,3 +9,7 @@
 import Foundation
 
 // Naming convention for color -> http://chir.ag/projects/name-that-color/
+
+extension UIColor {
+    
+}

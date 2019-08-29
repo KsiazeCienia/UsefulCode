@@ -14,6 +14,9 @@ extension UIView {
     static var identifier: String {
         return String(describing: self)
     }
+}
+
+extension UIView {
 
     /// Add subview with edges constraints.
     /// Possible to add offset
@@ -24,7 +27,7 @@ extension UIView {
             subview.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -offset),
             subview.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -offset),
             subview.leadingAnchor.constraint(equalTo: leadingAnchor, constant: offset)
-        ])
+            ])
     }
 
     /// Add subview with edges constraint to safeAreaLayoutGuide.
@@ -36,6 +39,14 @@ extension UIView {
             subview.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor, constant: -offset),
             subview.trailingAnchor.constraint(equalTo: safeAreaLayoutGuide.trailingAnchor, constant: -offset),
             subview.leadingAnchor.constraint(equalTo: safeAreaLayoutGuide.leadingAnchor, constant: offset)
-        ])
+            ])
+    }
+}
+
+extension UIView {
+
+    /// Add array of views to the view
+    func addSubviews(_ subviews: [UIView]) {
+        subviews.forEach(addSubview)
     }
 }

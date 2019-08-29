@@ -8,9 +8,9 @@ Classes and extensions that are commonly used in projects. Feel free to copy and
 ## UI Extensions
 
 **UIView:**
-* ```swift
+```swift
 static var identifier: String
-``` 
+```
 * `func addSubviews(_ subviews: [UIView])` - add array of views to the view
 * `func addSubviewWithEdgesConstraints(_ subview: UIView, offset: CGFloat = 0)` - Method to add subview with edges constraints (possible offset)
 * `func addSubviewWithSafeAreaEdgesConstraints(_ subview: UIView, offset: CGFloat = 0)` - Method to add subview with edges constraint to `safeAreaLayoutGuide` (possible offset)

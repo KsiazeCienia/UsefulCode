@@ -25,5 +25,8 @@ Classes and extensions that are commonly used in projects. Feel free to copy and
 * `func register(_ types: [UITableViewCell.Type])` - easier cells register
 * `func unsafeDequeueReusableCell<T: UITableViewCell>(_ cellType: T.Type, for indexPath: IndexPath) -> T` - unsafe cell dequeue with casting to specific class
 
+**UIViewController:**
+* `func addAndAttachChild(_ viewController: UIViewController, with constraints: [NSLayoutConstraint])` - add child viewController and attach it to view with given constraints
+
 **UIColor:**
 * Link with name convetion

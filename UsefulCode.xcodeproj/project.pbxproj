@@ -11,6 +11,7 @@
 		C15AF0842261186800BBDDA7 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AF0832261186800BBDDA7 /* UICollectionView+Extensions.swift */; };
 		C15AF089226119F400BBDDA7 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AF088226119F400BBDDA7 /* UIView+Extensions.swift */; };
 		C15AF08C22611B3100BBDDA7 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15AF08B22611B3100BBDDA7 /* UIColor+Extensions.swift */; };
+		C170C7B023290221008775EF /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C170C7AF23290221008775EF /* UIViewController+Extensions.swift */; };
 		C1FD9CCC22833A8F000B34FD /* AdjustableCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FD9CCB22833A8F000B34FD /* AdjustableCollectionViewLayout.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		C15AF0832261186800BBDDA7 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
 		C15AF088226119F400BBDDA7 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		C15AF08B22611B3100BBDDA7 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		C170C7AF23290221008775EF /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		C1FD9CCB22833A8F000B34FD /* AdjustableCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustableCollectionViewLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +80,7 @@
 				C15AF0832261186800BBDDA7 /* UICollectionView+Extensions.swift */,
 				C15AF088226119F400BBDDA7 /* UIView+Extensions.swift */,
 				C108DC4A23042FD90037C61E /* UITableView+Extensions.swift */,
+				C170C7AF23290221008775EF /* UIViewController+Extensions.swift */,
 			);
 			path = UIExtensions;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				C15AF089226119F400BBDDA7 /* UIView+Extensions.swift in Sources */,
 				C15AF0842261186800BBDDA7 /* UICollectionView+Extensions.swift in Sources */,
 				C15AF08C22611B3100BBDDA7 /* UIColor+Extensions.swift in Sources */,
+				C170C7B023290221008775EF /* UIViewController+Extensions.swift in Sources */,
 				C1FD9CCC22833A8F000B34FD /* AdjustableCollectionViewLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

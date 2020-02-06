@@ -1,6 +1,11 @@
 # UsefulCode
 Classes and extensions that are commonly used in projects. Feel free to copy and make suggestions 😃
 
+## Foundation Extensions
+
+**Sequence:**
+* `func all(matching predicate: (Element) -> Bool) -> Bool` - Checks if every element match given predicate
+* `func filterMatching<T>(to array: [T], where predicate: (Element, T) -> Bool) -> [Element]` - Filters all elements that matches predicate to elements from array passed as an argument
 ## UI Components
 
 **`AdjustableCollectionViewLayout`** - fits cells to `UICollectionView` size based on number of cells in row/column and given ratio

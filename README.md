@@ -4,7 +4,11 @@ Classes and extensions that are commonly used in projects. Feel free to copy and
 ## Foundation Extensions
 
 **Sequence:**
-* `func all(matching predicate: (Element) -> Bool) -> Bool` - Checks if every element match given predicate
+* Checks if every element match given predicate 
+```swift 
+func all(matching predicate: (Element) -> Bool) -> Bool
+``` 
+
 * `func filterMatching<T>(to array: [T], where predicate: (Element, T) -> Bool) -> [Element]` - Filters all elements that matches predicate to elements from array passed as an argument
 ## UI Components
 

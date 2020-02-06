@@ -13,6 +13,9 @@ Classes and extensions that are commonly used in projects. Feel free to copy and
 * `func addSubviewWithEdgesConstraints(_ subview: UIView, offset: CGFloat = 0)` - Method to add subview with edges constraints (possible offset)
 * `func addSubviewWithSafeAreaEdgesConstraints(_ subview: UIView, offset: CGFloat = 0)` - Method to add subview with edges constraint to `safeAreaLayoutGuide` (possible offset)
 
+**UIStackView:**
+* `func addArrangedSubviews(_ subviews: [UIView])` - Add arranged array of subviews
+
 **UICollectionView:**
 * `func register(_ type: UICollectionViewCell.Type)` - easier cell register
 * `func register(_ types: [UICollectionViewCell.Type])` - easier cells register
@@ -26,7 +29,7 @@ Classes and extensions that are commonly used in projects. Feel free to copy and
 * `func unsafeDequeueReusableCell<T: UITableViewCell>(_ cellType: T.Type, for indexPath: IndexPath) -> T` - unsafe cell dequeue with casting to specific class
 
 **UIViewController:**
-* `func addAndAttachChild(_ viewController: UIViewController, with constraints: [NSLayoutConstraint])` - add child viewController and attach it to view with given constraints
+* `func addChild(_ viewController: UIViewController, attachingWith constraints: [NSLayoutConstraint])` - add child viewController and attach it to view with given constraints
 
 **UIColor:**
 * Link with name convetion

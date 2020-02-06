@@ -11,7 +11,7 @@ import UIKit
 extension UIViewController {
 
     /// Add child viewController and attach it to view with given constraints
-    func addAndAttachChild(_ viewController: UIViewController, with constraints: [NSLayoutConstraint]) {
+    func addChild(_ viewController: UIViewController, attachingWith constraints: [NSLayoutConstraint]) {
         self.addChild(viewController)
         viewController.willMove(toParent: self)
 

@@ -3,7 +3,7 @@ Classes and extensions that are commonly used in projects. Feel free to copy and
 
 ## Foundation Extensions
 
-**Sequence:**
+### Sequence: 
 * Checks if every element match given predicate 
 ```swift 
 func all(matching predicate: (Element) -> Bool) -> Bool

@@ -71,7 +71,7 @@
 		C15AF07A2261184900BBDDA7 /* UsefulCode */ = {
 			isa = PBXGroup;
 			children = (
-				C164767D23663D1300FCB1F2 /* Logic */,
+				C164767D23663D1300FCB1F2 /* FundationExtensions */,
 				C1FD9CCA22833A73000B34FD /* UIComponents */,
 				C15AF0822261185800BBDDA7 /* UIExtensions */,
 			);
@@ -91,12 +91,12 @@
 			path = UIExtensions;
 			sourceTree = "<group>";
 		};
-		C164767D23663D1300FCB1F2 /* Logic */ = {
+		C164767D23663D1300FCB1F2 /* FundationExtensions */ = {
 			isa = PBXGroup;
 			children = (
 				C164767E23663D2100FCB1F2 /* Sequence+Extensions.swift */,
 			);
-			path = Logic;
+			path = FundationExtensions;
 			sourceTree = "<group>";
 		};
 		C1FD9CCA22833A73000B34FD /* UIComponents */ = {
